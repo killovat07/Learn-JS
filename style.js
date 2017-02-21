@@ -9,11 +9,7 @@ var HomeArr = function(arr) {
             });
         } else if (typeof array === 'string'){
             array.split(', ');
-        }
-        else if (typeof array === ''){
-            return "- No array";
-        }
-        else {
+        } else {
             return "- Please write correct ARRAY or STRING";
         }
 
